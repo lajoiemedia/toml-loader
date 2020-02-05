@@ -1,4 +1,4 @@
-var toml = require('toml');
+var toml = require("@iarna/toml");
 
 module.exports = function(source) {
   this.cacheable && this.cacheable();
